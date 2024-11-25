@@ -1,0 +1,16 @@
+Notes:
+
+While working on the script for the given task, I came across some observations that I would like to share.
+
+In the task details, Task No. 6 specifies: "Ensure that when the value 560 is entered in the text field, the slider's position is updated to reflect the value 560."
+
+The next step is to directly proceed to selecting CPT Codes. At this point, the slider value is correctly set to 560, as expected.
+
+However, when we reach Task No. 9, it asks to verify that the header displays:
+"Total Recurring Reimbursement for all Patients Per Month: shows the value $110700."
+
+This verification is inconsistent with the earlier step (Task No. 6), where the slider value was set to 560. Due to this, the reimbursement value cannot match the expected value of $110700, as the slider position directly impacts the calculation.
+
+To match the Patients Per Month value with $110700, the slider value would need to be set to 820. However, resetting the slider to 820 was not mentioned in the task instructions.
+
+In the submitted code, I have not changed the slider value back to 820 after Task No. 6, as it was not explicitly required in the task. Consequently, the discrepancy in the reimbursement value is clearly visible in the terminal output.
