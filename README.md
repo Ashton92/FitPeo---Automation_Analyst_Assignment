@@ -94,11 +94,11 @@ Notes
 Delays in Execution:
 
 time.sleep(2) is used after actions for better visibility of each step during execution. To optimize runtime, you can comment out or remove these delays.
+
 Validation:
-
 Ensure XPaths and element locators are up-to-date to match changes in the FitPeo website structure.
-Browser Compatibility:
 
+Browser Compatibility:
 Test with the latest version of Google Chrome for compatibility.
 Troubleshooting
 WebDriver Errors: Verify that the Chrome WebDriver version matches your Chrome browser version.
